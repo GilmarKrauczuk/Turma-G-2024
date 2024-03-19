@@ -1,8 +1,20 @@
-body{
+header{
     background-color: #114232;
     color: white;
 }
 
 cabeçalho-imagem{
     width: 10%;
+}
+
+.cabeçalho-itens{
+
+}
+
+.lista-itens{
+
+}
+
+.lista-itens-elementos{
+    
 }
