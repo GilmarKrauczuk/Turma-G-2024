@@ -1,20 +1,47 @@
-header{
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagem1{
+    width: 20%;
+    height: 10%;
+}
+
+.cabeçalho{
     background-color: #114232;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-cabeçalho-imagem{
-    width: 10%;
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
 }
 
-.cabeçalho-itens{
-
+.escola-imagem{
+    width: 35%;
 }
 
-.lista-itens{
-
+.escola{
+    background-image: linear-gradient(#87A922, #DEF894);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-.lista-itens-elementos{
-    
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
