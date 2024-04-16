@@ -54,6 +54,11 @@ body{
     width: 120px;
 }
 
+.estudante-imagem1{
+    height: 71%;
+    width: 50%;
+}
+
 .estudante-icone{
     width: 24px;
     padding: 4px 8px;
@@ -61,9 +66,30 @@ body{
 
 .estudante{
     padding: 24px;
+    background-color: #d5dfb7;
 }
 
 .estudante-div{
     text-align: center;
     padding: 16px 0;
 }
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{display: grid; 
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.imagem-rodapé{
+    width: 120px;
+    padding: 10px 150px;
+ }
+
+ .img-rodape-git{
+    width: 170px;;
+ }
+
+ footer{background-color: #92a068; padding: 15px 0; text-align: left;}
