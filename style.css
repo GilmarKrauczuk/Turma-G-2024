@@ -76,7 +76,7 @@ body{
 
 .estudante-titulo{
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .estudante-todos{display: grid; 
@@ -85,11 +85,33 @@ body{
 
 .imagem-rodapé{
     width: 120px;
-    padding: 10px 150px;
- }
+}
 
  .img-rodape-git{
-    width: 170px;;
+    width: 170px;
  }
 
- footer{background-color: #92a068; padding: 15px 0; text-align: left;}
+.imagens-do-rodape{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+ footer{background-color: #92a068; 
+    padding: 15px 0 10px 15px; 
+    text-align: left;}
+
+ .imagem-mapa{
+    width: 60px;
+    text-align: center;
+    display: flex;
+    padding: 0 0 0 10px;
+ }
+
+ .texto-mapa{
+    text-align: left;
+    padding: 23px 0 0 0;
+ }
+
+ .endereço{
+    display:inline-flex;
+ }
